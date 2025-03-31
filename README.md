@@ -15,18 +15,18 @@ _It focuses on enhancing road safety and traffic efficiency by using AI to detec
 **Interactive Visualization:** Implements Pygame to simulate and visualize traffic control and pedestrian behavior.
 
 **Technologies Used**
-Python: Main programming language for implementation.
+**Python:** Main programming language for implementation.
 
-PyTorch: Used for deep learning and model training.
+**PyTorch:** Used for deep learning and model training.
 
-YOLO (You Only Look Once): Real-time object detection for identifying pedestrians, vehicles, and helmets.
+**YOLO (You Only Look Once):** Real-time object detection for identifying pedestrians, vehicles, and helmets.
 
-OpenCV: Image processing and computer vision tasks.
+**OpenCV:** Image processing and computer vision tasks.
 
-Pygame: Simulation and visualization of traffic scenarios.
+**Pygame:** Simulation and visualization of traffic scenarios.
 
-How It Works
-Data Collection: Camera feeds capture live traffic and pedestrian movement.
+**How It Works**
+**Data Collection ** Camera feeds capture live traffic and pedestrian movement.
 
 Object Detection: YOLO detects pedestrians, vehicles, and helmet usage.
 
