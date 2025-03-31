@@ -4,40 +4,43 @@ _It focuses on enhancing road safety and traffic efficiency by using AI to detec
 **This project leverages artificial intelligence to enhance traffic management and road safety. Using computer vision and deep learning techniques, the system dynamically adjusts traffic signal timings based on real-time pedestrian and vehicle analysis. It also enforces safety rules by detecting helmet usage and identifying violators.**
 
 **Key Features**
-> **Smart Traffic Signal Control:** Detects the number of pedestrians waiting at a crossing and adjusts signal timings accordingly to optimize traffic flow.
 
-**Helmet and Safety Rule Detection:** Identifies whether motorcyclists are wearing helmets and following traffic rules.
+> **1)Smart Traffic Signal Control:** Detects the number of pedestrians waiting at a crossing and adjusts signal timings accordingly to optimize traffic flow.
 
-**Violation Tracking:** Captures and stores vehicle numbers of those violating safety regulations for further action.
+**2)Helmet and Safety Rule Detection:** Identifies whether motorcyclists are wearing helmets and following traffic rules.
 
-**Real-time Processing:** Uses YOLO for object detection and OpenCV for image processing to analyze traffic conditions in real time.
+**3)Violation Tracking:** Captures and stores vehicle numbers of those violating safety regulations for further action.
 
-**Interactive Visualization:** Implements Pygame to simulate and visualize traffic control and pedestrian behavior.
+**4)Real-time Processing:** Uses YOLO for object detection and OpenCV for image processing to analyze traffic conditions in real time.
+
+**5)Interactive Visualization:** Implements Pygame to simulate and visualize traffic control and pedestrian behavior.
 
 **Technologies Used**
 
-**Python:** It is the main programming language for implementation.
+**a)Python:** It is the main programming language for implementation.
 
-**PyTorch:** It is used for deep learning and model training.
+**b)PyTorch:** It is used for deep learning and model training.
 
-**YOLO (You Only Look Once):** Real-time object detection for identifying pedestrians, vehicles, and helmets.
+**c)YOLO (You Only Look Once):** Real-time object detection for identifying pedestrians, vehicles, and helmets.
 
-**OpenCV:** Image processing and computer vision tasks.
+**d)OpenCV:** Image processing and computer vision tasks.
 
-**Pygame:** Simulation and visualization of traffic scenarios.
+**e)Pygame:** Simulation and visualization of traffic scenarios.
 
 **How It Works**
-**Data Collection:** Camera feeds capture live traffic and pedestrian movement.
 
-**Object Detection:** YOLO detects pedestrians, vehicles, and helmet usage.
+**1)Data Collection:** Camera feeds capture live traffic and pedestrian movement.
 
-**Traffic Signal Adjustment:** The system calculates pedestrian density and adjusts signal timing dynamically.
+**2)Object Detection:** YOLO detects pedestrians, vehicles, and helmet usage.
 
-**Rule Enforcement:** If a motorcyclist is not wearing a helmet, their vehicle number is stored for further action.
+**3)Traffic Signal Adjustment:** The system calculates pedestrian density and adjusts signal timing dynamically.
 
-**Simulation:** Pygame is used to create a visual representation of the system's decision-making process.
+**4)Rule Enforcement:** If a motorcyclist is not wearing a helmet, their vehicle number is stored for further action.
+
+**5)Simulation:** Pygame is used to create a visual representation of the system's decision-making process.
 
 **Goals and Impact**
+
 > _This project aims to:
 > Improve pedestrian safety by giving them appropriate crossing time.
 > Enforce road safety laws using AI-based monitoring. 
