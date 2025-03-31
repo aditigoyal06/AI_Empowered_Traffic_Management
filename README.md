@@ -15,6 +15,7 @@ _It focuses on enhancing road safety and traffic efficiency by using AI to detec
 **Interactive Visualization:** Implements Pygame to simulate and visualize traffic control and pedestrian behavior.
 
 **Technologies Used**
+
 **Python:** It is the main programming language for implementation.
 
 **PyTorch:** It is used for deep learning and model training.
